@@ -1,0 +1,84 @@
+.headset-banner{
+    background-color: White;
+    height:35px;
+    box-shadow: 0px 2px 8px #888888;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 5px;
+    font-size: 13px;
+}
+
+.headset-body{
+    display: flex;
+    justify-content: flex-row;   
+    padding:10px;
+    padding-top: 20px;
+    height:auto;
+}
+
+.sidebar-info{
+    width:40%;
+}
+
+.headset-products{
+    padding-top:5px;
+    height:auto;
+}
+
+.pa1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 13px;
+    color:#000;
+    margin-bottom: 8px;
+}
+
+.pa2{
+    text-align: left;
+    font-size: 13px;
+    color:#000;
+    margin-bottom: 6px;
+}
+
+.pa2:hover{
+    color:#C7511F;
+    cursor: pointer;
+}
+
+.pro-heading{
+    font-size: 19px;
+    margin-bottom: 8px;
+}
+
+.pro-img{
+    height:230px;
+    width:210px;
+    padding: 30px;
+}
+
+.product-content{
+    height:270px;
+    width:auto;
+    margin-top:15px;
+    border:1px solid #eaeaea;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+}
+
+.pro-details{
+    padding:10px;
+}
+
+.headset-product-name{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.headset-product-name:hover{
+    color:#C7511F;
+    cursor: pointer;
+}

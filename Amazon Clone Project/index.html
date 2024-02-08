@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div id="section-navbar">
+            <div class="navbar">
+                <div class="nav-logo border">
+                    <div class="logo" onclick="goToHome2()"></div>
+                </div>
+
+                <div class="nav-address border">
+                    <p class="p1">Deliver to</p>
+                    <div class="add-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p style="margin-left:2px;">India</p>
+                    </div>
+                </div>
+
+                <div class="nav-search">
+                    <select class="search-select">
+                        <option>All</option>
+                        <option>All Departments</option>
+                        <option>Arts & Crafts</option>
+                        <option>Automative</option>
+                        <option>Baby</option>
+                        <option>Beauty & Personal Care</option>
+                        <option>Books</option>
+                        <option>Boy's Fashion</option>
+                        <option>Computers</option>
+                        <option>Deals</option>
+                        <option>Digital Music</option>
+                        <option>Electronics</option>
+                        <option>Girl's Fashion</option>
+                        <option>Health & Household</option>
+                    </select>
+                    <input placeholder="Search Amazon" id="searchInput" class="search-input">
+                    <div class="search-icon">
+                        <i class="fa-solid fa-magnifying-glass" style="color:rgb(19, 19, 62)"></i>
+                    </div>
+                </div>
+
+                <div class="nav-account border">
+                    <p class="p2">Hello, sign in</p>
+                    <select class="account-select">
+                        <option>Account & Lists</option>
+                    </select>
+                </div>
+
+                <div class="nav-order border">
+                    <p class="p2">Returns</p>
+                    <p class="p3">& Orders</p>
+                </div>
+
+                <div class="nav-cart border">
+                    <i class="fa-solid fa-cart-plus" style="font-size:23px;"></i>
+                    <p class="p3">Cart</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="panel">
+            <div class="panel-all border">
+                <i class="fa-solid fa-bars"></i>
+                All
+            </div>
+            <div class="panel-ops">
+                <p style="padding: 5px;"class="border">Today's Deals</p>
+                <p style="padding: 5px;"class="border">Customer Service</p>
+                <p style="padding: 5px;"class="border">Regular</p>
+                <p style="padding: 5px;"class="border">Gift Cards</p>
+                <p style="padding: 5px;"class="border">Sell</p>
+            </div>
+            <div class="panel-deals border">
+                <p>Shop deals in Electronics</p>
+            </div>
+        </div>
+    </header>
+
+    <div id="section-body-home">
+        <div class="hero-section">
+            <div class="hero-msg">
+                You are on amazon.com. You can also shop on Amazon India for millions of products with fast local delivery.
+                <a href="https://www.amazon.in/?ref=aisgw_intl_stripe_in" class="anchor-msg" target="_blank">Click here to go to amazon.in</a>
+            </div>
+        </div>
+
+        <div class="shop-section">
+            <div class="box">
+                <div class="box-content">
+                    <h2>Gaming accessories</h2>
+                    <div class="images">
+                        <a href="Headsets.html"  class="product-name">
+                            <div style="cursor:pointer;" class="mini-box" onclick="headsetPage()">
+                                <img src="Headsets.jpg" class="mini-img">
+                                <p>Headsets</p>
+                            </div>
+                        </a>
+                        <a href="keyboards.html" class="product-name">
+                            <div style="cursor:pointer;" class="mini-box">
+                                <img src="Keyboards.jpg" class="mini-img">
+                                <p>Keyboards</p>
+                            </div>
+                        </a>
+                        <a href="computer mice.html" class="product-name">
+                            <div style="cursor:pointer;" class="mini-box">
+                                <img src="Computer mice.jpg" class="mini-img">
+                                <p>Computer mice</p>
+                            </div>
+                        </a>
+                        <a href="chairs.html" class="product-name">
+                            <div style="cursor:pointer;" class="mini-box">
+                                <img src="Chairs.jpg" class="mini-img">
+                                <p>Chairs</p>
+                            </div>
+                        </a>
+                    </div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Notebooks</h2>
+                    <div class="box-img" style="background-image: url('Books.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Toys Under $30</h2>
+                    <div class="box-img" style="background-image: url('toys.jpg');"></div>
+                    <a class="anchor-msg">Shop now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Shop deals in Fashion</h2>
+                    <div class="images">
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Jeans.jpg" class="mini-img">
+                            <p>Jeans under $50</p>
+                        </div>
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Tops.jpg" class="mini-img">
+                            <p>Tops under $25</p>
+                        </div>
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Dresses.jpg" class="mini-img">
+                            <p>Dresses under $30</p>
+                        </div>
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Shoes.jpg" class="mini-img">
+                            <p>Shoes under $50</p>
+                        </div>
+                    </div>
+                    <a class="anchor-msg">See all deals</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Refresh your space</h2>
+                    <div class="images">
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Dining.jpg" class="mini-img">
+                            <p>Dining</p>
+                        </div>
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Home.jpg" class="mini-img">
+                            <p>Home</p>
+                        </div>
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Kitchen.jpg" class="mini-img">
+                            <p>Kitchen</p>
+                        </div>
+                        <div style="cursor:pointer;" class="mini-box">
+                            <img src="Health and Beauty.jpg" class="mini-img">
+                            <p>Healthy and Beauty</p>
+                        </div>
+                    </div>
+                    <a class="anchor-msg">See all deals</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Home & Kitchen under $30</h2>
+                    <div class="box-img" style="background-image: url('Home and kitchen.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Clothes</h2>
+                    <div class="box-img" style="background-image: url('box1_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Health & Personal Care</h2>
+                    <div class="box-img" style="background-image: url('box2_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Furniture</h2>
+                    <div class="box-img" style="background-image: url('box3_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>For your Fitness Needs</h2>
+                    <div class="box-img" style="background-image: url('fitness.jpg');"></div>
+                    <a class="anchor-msg">Shop now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Electronics</h2>
+                    <div class="box-img" style="background-image: url('box4_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Beauty picks</h2>
+                    <div class="box-img" style="background-image: url('box5_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Pet care</h2>
+                    <div class="box-img" style="background-image: url('box6_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>New arrivals in toys</h2>
+                    <div class="box-img" style="background-image: url('box7_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Discover fashion trends</h2>
+                    <div class="box-img" style="background-image: url('box8_image.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Home refresh</h2>
+                    <div class="box-img" style="background-image: url('kitchen upgrades.jpg');"></div>
+                    <a class="anchor-msg">Shop kitchen upgrades</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Shop Laptops & Tablets</h2>
+                    <div class="box-img" style="background-image: url('laptops and tablets.jpg');"></div>
+                    <a class="anchor-msg">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Smartwatches</h2>
+                    <div class="box-img" style="background-image: url('smartwatches.jpg');"></div>
+                    <a class="anchor-msg">Shop now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Create with strip lights</h2>
+                    <div class="box-img" style="background-image: url('strip lights.jpg');"></div>
+                    <a class="anchor-msg">Shop now</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="box-content">
+                    <h2>Kindle E readers</h2>
+                    <div class="box-img" style="background-image: url('kindle e-readers.jpg');"></div>
+                    <a class="anchor-msg">Shop now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="foot-panel1" onclick="goToHome()">
+            Back to Top
+        </div>
+
+        <div class="foot-panel2">
+            <ul>
+                <p>Get to Know Us</p>
+                <a>Careers</a>
+                <a>Blog</a>
+                <a>About Amazon</a>
+                <a>Invester Relations</a>
+                <a>Amazon Devices</a>
+                <a>Amazon Science</a>
+            </ul>
+            <ul>
+                <p>Make Money with Us</p>
+                <a>Sell products on Amazon</a>
+                <a>Sell on Amazon Business</a>
+                <a>Sell apps on Amazon</a>
+                <a>Become an Affiliate</a>
+                <a>Advertise Your Products</a>
+                <a>Self-Publish with Us</a>
+                <a>Host an Amazon Hub</a>
+                <a>›See More Make Money with Us</a>
+            </ul>
+            <ul>
+                <p>Amazon Payment Products</p>
+                <a>Amazon Business Card</a>
+                <a>Shop with Points</a>
+                <a>Reload Your Balance</a>
+                <a>Amazon Currency Converter</a>
+            </ul>
+            <ul>
+                <p>Let Us Help You</p>
+                <a>Amazon and COVID-19</a>
+                <a>Your Account</a>
+                <a>Your Orders</a>
+                <a>Shipping Rates & Policies</a>
+                <a>Return & Replacements</a>
+                <a>Manage Your Content and Devices</a>
+                <a>Amazon Assistant</a>
+                <a>Help</a>
+            </ul>
+        </div>
+
+        <div class="foot-panel3">
+            <div class="logo" onclick="goToHome2()"></div>
+        </div>
+
+        <div class="foot-panel4">
+            <div class="pages">
+                <a>Conditions of Use</a>
+                <a>Privacy Notice</a>
+                <a>Your Ads Privacy Choices</a>
+            </div>
+            <div class="copyright">
+                © 1996-2023, Amazon.com, Inc. or its affiliates
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
